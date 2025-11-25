@@ -1,0 +1,60 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, var(--color-background) 0%, #f0e6d2 100%);
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Optional: Add a subtle pattern or texture overlay here if requested later */
+
+.hero h1 {
+    font-size: 5rem;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: var(--color-text);
+    margin-bottom: 3rem;
+    font-weight: 300;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-button {
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: var(--font-main);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 10px 20px rgba(128, 0, 32, 0.2);
+    transition: box-shadow 0.3s;
+}
+
+.cta-button:hover {
+    box-shadow: 0 15px 30px rgba(128, 0, 32, 0.4);
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+}
