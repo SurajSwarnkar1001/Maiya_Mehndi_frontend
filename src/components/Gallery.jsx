@@ -158,7 +158,7 @@ const Gallery = () => {
                             exit={{ scale: 0.8 }}
                             onClick={(e) => e.stopPropagation()}
                         >
-                            <img src={fullscreenImage.imageUrl || fullscreenImage.url} alt={fullscreenImage.title} />
+                            <img src={fullscreenImage.base64Data || fullscreenImage.imageUrl || fullscreenImage.url} alt={fullscreenImage.title} />
                             <div className="fullscreen-info">
                                 <h3>{fullscreenImage.title}</h3>
                             </div>
