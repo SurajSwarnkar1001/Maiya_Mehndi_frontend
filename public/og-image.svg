@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#800020" rx="30"/>
+  
+  <!-- Logo/Text in center -->
+  <text x="600" y="350" font-family="'Outfit', serif" font-size="120" font-weight="700" fill="#C5A059" text-anchor="middle">MM</text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="450" font-family="'Outfit', serif" font-size="48" font-weight="400" fill="#FDFBF7" text-anchor="middle" opacity="0.9">Maiya Mehndi</text>
+  
+  <!-- Tagline -->
+  <text x="600" y="520" font-family="'Outfit', serif" font-size="32" font-weight="300" fill="#C5A059" text-anchor="middle" opacity="0.8">Beautiful Mehndi Designs</text>
+</svg>
+
